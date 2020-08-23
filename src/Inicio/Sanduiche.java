@@ -29,7 +29,7 @@ public class Sanduiche extends Lanche{
 	public void detalhesPedido() {
 		System.out.println("");	
 		System.out.println("Lanche: Sanduiche");
-		System.out.println("Preço: R$" + super.getPreco());
+		System.out.println("Preço da Unidade: R$" + super.getPreco());
 		System.out.println("Quantidade: " + super.getQuantidade());
 		System.out.println("Ingredientes: " + arrIngredientes.toString());
 		for(int i = 0 ; i < arrIngredientes.size(); i++) {

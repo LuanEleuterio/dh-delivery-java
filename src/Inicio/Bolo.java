@@ -35,7 +35,7 @@ public class Bolo extends Lanche{
 		System.out.println("Massa: "+this.massa);
 		System.out.println("Recheio: " + this.recheio);
 		System.out.println("Cobertura: "+this.cobertura);	
-		System.out.println("Preço: R$" + super.getPreco());
+		System.out.println("Preço da Unidade: R$" + super.getPreco());
 		System.out.println("Quantidade: " + super.getQuantidade());
 	}
 }

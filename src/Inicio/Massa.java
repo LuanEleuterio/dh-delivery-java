@@ -30,7 +30,7 @@ public class Massa extends Lanche {
 	public void detalhesPedido() {
 		System.out.println("");	
 		System.out.println("Lanche: Massa tipo " + this.tipoMassa);
-		System.out.println("Preço: R$" + super.getPreco());
+		System.out.println("Preço da Unidade: R$" + super.getPreco());
 		System.out.println("Quantidade: " + super.getQuantidade());
 	}
 }
